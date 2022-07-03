@@ -251,24 +251,16 @@ body{
 
     
     .result-box{
-        position: absolute;
-        left:40%;
+        position: relative;
+        
         top:63%;
     }
 
-    .pos-left{
-        position: relative;
-        top:15%;
-        left:25%;
-    }
     
     
     
-    .pos-right{
-        position: relative;
-        top:15%;
-        right:25%;
-    }
+    
+    
 
 }
 
@@ -373,24 +365,14 @@ body{
     }
 
       .result-box{
-        position: absolute;
-        left:39%;
+        position: relative;
         top:58%;
     }
 
-    .pos-left{
-        position: relative;
-        top:15%;
-        left:25%;
-    }
     
     
     
-    .pos-right{
-        position: relative;
-        top:15%;
-        right:25%;
-    }
+    
 
 
     
@@ -422,27 +404,15 @@ body{
     
     .result-box{
         
-        position: absolute;
-        left:35%;
-        top:65%;
+        position: realtive;
+        top:55%;
     }
 
     .game-result{
         font-size: 2.65rem;
     }
-    .pos-left{
-        position: relative;
-        top:15%;
-        left:25%;
-    }
     
     
-    
-    .pos-right{
-        position: relative;
-        top:15%;
-        right:25%;
-    }
 
     #Result{
         height: 350px;
@@ -553,9 +523,9 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: 50%;
-        height: 25%;
-        width: 17%;
-        border: 12px solid hsl(230, 89%, 62%);
+        height: 35%;
+        width: 23%;
+        border: 10px solid hsl(230, 89%, 62%);
         border-radius: 100%;
         box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(86, 113, 245, 0.7);
         cursor: pointer;
@@ -573,10 +543,10 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: 50%;
-        height: 25%;
-        width: 17%;
+        height: 35%;
+        width: 23%;
         border-radius: 100%;
-        border: 12px solid #dc2e4e;
+        border: 10px solid #dc2e4e;
         box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(221, 64, 93, 0.7);
         cursor: pointer;
             
@@ -590,9 +560,9 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: 50%;
-        height: 25%;
-        width: 17%;
-        border: 12px solid #ec9e0e;
+        height: 35%;
+        width: 23%;
+        border: 10px solid #ec9e0e;
       border-radius: 100%;
       box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(236, 169, 34, 0.7);
       cursor: pointer;
@@ -606,23 +576,21 @@ body{
     }
 
     .load{
-        height: 25%;
-        width: 17%;
+        height: 35%;
+        width: 23%;
         border-radius: 100%;
         border:0;
       background-color: rgba(0,0,0,0.2);
       animation: skeleton-anim 1s 0.5s infinite alternate;
     }
 
-    .result-box{
-        
-        position: absolute;
-        left:30%;
-        top:45%;
-    }
-
+    
+    
     .game-result{
         font-size: 2.5rem;
+    }
+    .loading-dot{
+        width:5%;
     }
 }
 
