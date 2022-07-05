@@ -357,7 +357,7 @@ body{
 
       #Result{
         height: 350px;
-        margin: 2% 10% 4%;
+        margin: 2% 10% 10%;
         padding-top: 2%;
         display: none;
         justify-content: space-between;
@@ -369,13 +369,18 @@ body{
         top:58%;
     }
 
-    
-    
-    
-    
-
-
-    
+    .pos-left{
+        position: relative;
+        top:15%;
+        left:16.5%;
+    }
+        
+    .pos-right{
+        position: relative;
+        top:15%;
+        right:16.5%;
+    }
+       
     
 }
 
@@ -492,18 +497,30 @@ body{
       animation: skeleton-anim 1s 0.5s infinite alternate;
     }
     
+    .pos-left{
+        position: relative;
+        top:15%;
+        left:16.5%;
+    }
+        
+    .pos-right{
+        position: relative;
+        top:15%;
+        right:16.5%;
+    }
 }
 
 
 @media (max-width:550px){
 
     #Game-Main{
-        height: 300px;
-        margin: 8% 10% 0%;
+        height: 250px;
+        margin: 18% 10% 10%;
         padding-top: 2%;
         display: flex;
         justify-content: space-between;
         background-image: url("images/bg-triangle.svg");
+        background-size: 250px;
         background-position: center;
         background-repeat: no-repeat;
     }
@@ -516,6 +533,16 @@ body{
         padding: 1% 2%;
         width: 95%;
         justify-content: space-between;}
+
+
+     #Result{
+            height: 250px;
+            margin: 8% 10% 35%;
+            padding-top: 2%;
+            display: none;
+            justify-content: space-between;
+                
+    }
     
     .btn-paper{
         background-image: url("images/icon-paper.svg");
@@ -583,8 +610,33 @@ body{
       background-color: rgba(0,0,0,0.2);
       animation: skeleton-anim 1s 0.5s infinite alternate;
     }
-
     
+    .pos-left{
+        position: relative;
+        top:22%;
+        left:16.5%;
+    }
+        
+    .pos-right{
+        position: relative;
+        top:22%;
+        right:16.5%;
+    }
+
+    .pos-left2{
+        position: relative;
+        top:22%;
+        left:25%;
+    }
+        
+    .pos-right2{
+        position: relative;
+        top:22%;
+        right:25;
+    }
+    .result-box{
+        width: 200px;
+    }
     
     .game-result{
         font-size: 2.5rem;

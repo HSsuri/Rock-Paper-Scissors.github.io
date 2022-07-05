@@ -4,6 +4,11 @@ let score = localStorage.getItem('score') ? (JSON.parse(localStorage.getItem('sc
 $(".score").text(score);
 let random=-1;
 
+$(document).ready(function(){
+    if(window.innerWidth < 550){
+      $('.play-again').removeClass('btn-lg');
+    }
+  });
 
 $("#Game-Main button").click(function(event){
     $("#Game-Main").css("display","none");
@@ -36,6 +41,19 @@ $(".reset").click(function(){
     $(".score").text(score);
     restart();
 });
+
+$(window).resize(function(){
+    if(window.innerWidth < 550){
+        $('.play-again').removeClass('btn-lg')
+      } 
+      if(window.innerWidth > 550){
+        $('.play-again').addClass('btn-lg');
+      }   
+});
+
+
+    
+
 
 function restart(){
     $("#Result .result-box").addClass("hidden");
